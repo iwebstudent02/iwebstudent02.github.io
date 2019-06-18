@@ -30,3 +30,11 @@ header {
    grid-template-columns: 1fr 1fr;
    align-items: center;
 }
+
+/* SITE ID */
+nav ul {
+   display: flex;
+   justify-content: flex-end;
+   margin: 0;
+   padding-top: .6em;
+}
