@@ -18,7 +18,15 @@ a {
 header {
    background: black;
    color: red;
-   padding: 1em 2em; 
+   padding: 1em 2em;
 }
 
-header {}
+header a {
+    color: whitesmoke;
+}
+
+header {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
