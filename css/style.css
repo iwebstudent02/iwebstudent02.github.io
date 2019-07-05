@@ -81,7 +81,7 @@ section {
    display: grid;
    align-content: center;
    text-align: center;
-   background: red;
+   background: blue;
    min-height: 50vh;
    color: black;
 }
