@@ -129,3 +129,14 @@ section {
    opacity:.5;
    font-size: .8em;
 }
+
+/* CUSTOM UI DESIGN */
+
+.ui-design {
+  text-align: center;
+}
+
+.ui-design img {
+   max-width: 200px;
+}
+
