@@ -16,13 +16,13 @@ a {
 
 /* HEADER */
 header {
-   background: black;
-   color: red;
+   background-image: linear-gradient( paleturquoise, lightcyan);
+   color: palet;
    padding: 1em 2em;
 }
 
 header a {
-    color: white;
+    color: whitesmoke;
 }
 
 header {
@@ -78,12 +78,33 @@ section {
 
 /* HERO */
 .hero {
-   display: grid;
-   align-content: center;
-   text-align: center;
-   background: blue;
+display: grid;
+align-content: center;
+text-align: center;
+font-family: 'arial';
+font: size 40px;
+color: powderblue;
+}
+
+ 
+.page-home .hero {
+   background-image: url(https://picsum.photos/id/1015/1600/800);
+   background-position: center top;
+   background-size: cover;
    min-height: 50vh;
-   color: black;
+   
+} 
+.page-about .hero {
+   background-image: url(https://picsum.photos/id/1036/4608/3072);
+   background-position: center top;
+   background-size: cover;
+   min-height: 40vh;
+}
+.page-blog .hero {
+   background-image: url(https://picsum.photos/id/1039/6945/4635);
+   background-position: center top;
+   background-size: cover;
+   min-height: 40vh;
 }
 
 .hero h2 {
