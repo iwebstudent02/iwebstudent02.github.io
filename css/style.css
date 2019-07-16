@@ -17,12 +17,12 @@ a {
 /* HEADER */
 header {
    background-image: linear-gradient( paleturquoise, lightcyan);
-   color: palet;
+   color: paleturquoise;
    padding: 1em 2em;
 }
 
 header a {
-    color: whitesmoke;
+    color: black;
 }
 
 header {
@@ -82,7 +82,7 @@ display: grid;
 align-content: center;
 text-align: center;
 font-family: 'arial';
-font: size 40px;
+font-size: 40px;
 color: powderblue;
 }
 
